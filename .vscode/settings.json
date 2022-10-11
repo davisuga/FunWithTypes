@@ -1,0 +1,9 @@
+{
+  "files.watcherExclude": {
+    "**/target": true
+  },
+  "ocaml.sandbox": {
+    "kind": "opam",
+    "switch": "4.14.0+flambda+nnpchecker"
+  }
+}

@@ -12,3 +12,4 @@ module Integers :
   sig type t = int val e : int val concat : int -> int -> int end
 val fold : (module Monoid with type t = 'a) -> 'a list -> 'a
 val mconcat : (module Monoid with type t = 'a) -> 'a -> 'a -> 'a
+
